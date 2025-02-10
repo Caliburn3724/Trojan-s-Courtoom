@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Courtroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the God's Courtroom</h1>
+    </header>
+
+    <div id="court-container">
+        <img id="courtroomImg" src="" alt="Courtroom Image" width="500">
+        <div id="trialDetails">
+            <h2>Trial Case: <span id="courtCase"></span></h2>
+            <p><strong>Defendant:</strong> <span id="godName"></span></p>
+            <p id="godDescription"></p>
+        </div>
+
+        <div id="witnesses">
+            <h3>Witnesses:</h3>
+            <ul id="witnessList"></ul>
+        </div>
+
+        <div id="choices">
+            <button id="defendBtn">Defend</button>
+            <button id="prosecuteBtn">Prosecute</button>
+            <button id="bribeBtn">Bribe Zeus</button>
+        </div>
+
+        <div id="verdict">
+            <h3>Verdict:</h3>
+            <p id="verdictText"></p>
+        </div>
+
+        <button id="speakVerdictBtn">Speak Verdict</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
